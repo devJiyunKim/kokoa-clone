@@ -1,0 +1,27 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik+Puddles&display=swap');
+
+@import "./reset.css";
+@import "./variables.css";
+
+/* Components */
+@import "./components/status-bar.css";
+
+/* Screens */
+@import "./screens/login.css";
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik Puddles', cursive;
+  padding-top: 40px;
+}
+
+#wrap{
+  width: 510px;
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px rgba(0,0,0,.2);
+}
+
