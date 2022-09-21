@@ -9,17 +9,18 @@
 
 .welcome-header__title{
   margin-bottom: 34px;
-  font-size: 46px;
-  line-height: 52px;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
 }
 
 .welcome-header__text{
   width: 100%;
-  opacity: .5;
-  font-family: 'Poppins', cursive;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
+  color: #fff;
 }
 
 #login-form{
@@ -31,11 +32,13 @@
 #login-form input{
   padding: 15px 0;
   border: none;
+  color: #fff;
   font-size: 16px;
   margin-bottom: 26px;
 }
 
 #login-form input:not([type="submit"]){
+  background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   transition: border-color 0.2s ease-in-out;
 }
@@ -45,11 +48,12 @@
 }
 
 #login-form input:focus{
-  border-color: var(--cloud);
+  border-color: #fff;
 }
 
 #login-form input[type="submit"]{
-  background-color:  var(--cloud);
+  background-color:  #fff;
+  color: #333;
   cursor: pointer;
   padding: 20px 0;
   border-radius: 5px;
@@ -58,7 +62,7 @@
 #login-form a{
   text-align: center;
   text-decoration: none;
-  color: inherit;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
 }

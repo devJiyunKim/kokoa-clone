@@ -1,3 +1,8 @@
 :root{
-  --cloud: rgb(118, 193, 242);
+  --cloud: #50abff;
+  --horizontal-space: 25px;
+}
+
+.bg-cloud{
+  background-color: #58a8fe;
 }

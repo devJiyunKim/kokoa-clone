@@ -5,17 +5,157 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="status-bar">
-    <div class="status-bar__column">
-      <span>14:21</span>
+  <div id="wrap">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>14:21</span>
+      </div>
+      <div class="status-bar__column">
+        <img src="https://cdn-icons-png.flaticon.com/512/39/39934.png" alt="signal" class="signal">
+        <img src="https://cdn-icons-png.flaticon.com/512/566/566280.png" alt="wifi" class="wifi">
+        <img src="https://cdn-icons-png.flaticon.com/512/664/664886.png" alt="battery" class="battery">
+      </div>
     </div>
-    <div class="status-bar__column">
-      <i class="fa-sharp fa-solid fa-signal-bars"></i>
-      <i class="fa-sharp fa-solid fa-battery-full fa-lg"></i>
-    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-user-plus fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a href="" id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends' Names Display
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://avatars.githubusercontent.com/u/51939481?v=4" alt="avatar" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Jiyun Kim</h4>
+            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/cloud.jpg " alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Cloud Octodex</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/octonaut.jpg" alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Octonaut</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/octoliberty.png" alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">OctoLiberty</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/bewitchedtocat.jpg" alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Bewitchedtocat</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/octotron.jpg" alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Octotron</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://octodex.github.com/images/andycat.jpg" alt="avatar" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Andycat</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__alert"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
   </div>
+  
 
   <script src="https://kit.fontawesome.com/1a9949e6d7.js" crossorigin="anonymous"></script>
 </body>
