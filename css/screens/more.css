@@ -1,0 +1,62 @@
+.user-wallet{
+  width: 100%;
+  background-color: var(--cloud);
+  padding: 25px 20px;
+  position: relative;
+  top: 80px;
+}
+.user-wallet__column{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-wallet__title-wallet{
+  font-size: 22px;
+  font-weight: 600;
+}
+.user-wallet__title-cert{
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 46px;
+}
+
+.user-wallet__title i{
+  font-size: 18px;
+  margin: 0 3px;
+}
+.user-wallet__ad{
+  background-color: #fff;
+  margin: 26px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: calc(100% - 64px);
+}
+.user-wallet__ad img{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.user-wallet__pay-name{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.user-wallet__pay-money{
+  padding-right: 46px;
+}
+.user-wallet__pay-menu{
+  display: block;
+  margin: 24px 0 40px;
+}
+.user-wallet__pay-menu span{
+  display: block;
+  float: left;
+}
+.user-wallet__pay-menu-buy{
+  float: right;
+  padding-right: 46px;
+}
