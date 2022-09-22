@@ -1,9 +1,14 @@
+.more-screen {
+  padding: 0px 10px;
+  position: relative;
+  top: 90px;
+}
+
 .user-wallet{
-  width: 100%;
-  background-color: var(--cloud);
-  padding: 25px 20px;
+  padding: 26px 24px;
   position: relative;
   top: 80px;
+  background-color: var(--cloud);
 }
 .user-wallet__column{
   display: flex;
@@ -17,7 +22,6 @@
 .user-wallet__title-cert{
   font-size: 16px;
   font-weight: 400;
-  padding-right: 46px;
 }
 
 .user-wallet__title i{
@@ -26,37 +30,64 @@
 }
 .user-wallet__ad{
   background-color: #fff;
-  margin: 26px 0;
-  padding: 10px;
-  display: flex;
-  align-items: center;
+  margin: 18px 0;
+  padding: 14px 10px;
   border-radius: 5px;
-  width: calc(100% - 64px);
 }
 .user-wallet__ad img{
   width: 26px;
   height: 26px;
   border-radius: 50%;
+  float: left;
+  position: relative;
+  top: -4px;
+}
+.user-wallet__ad span{
+  margin-left: 5px;
+}
+.user-wallet__ad i{
+  float: right;
   margin-right: 5px;
 }
-
-.user-wallet__pay-name{
+.user-wallet__money{
   font-weight: 600;
   font-size: 18px;
+  padding: 5px 15px;
+}
+.user-wallet__money span{
+  position: relative;
+  top: -3px;
+}
+.user-wallet__money-won{
+  float: right;
 }
 
-.user-wallet__pay-money{
-  padding-right: 46px;
-}
 .user-wallet__pay-menu{
   display: block;
-  margin: 24px 0 40px;
+  margin: 22px 0 37px;
+  padding: 0 15px;
 }
 .user-wallet__pay-menu span{
   display: block;
   float: left;
 }
+.user-wallet__pay-menu .divider{
+  float: left;
+  width: 1px;
+  height: 15px;
+  margin: 0 20px;
+  background-color: rgba(0,0,0, 0.2);
+}
 .user-wallet__pay-menu-buy{
   float: right;
-  padding-right: 46px;
+}
+
+.ad-box{
+  padding: 0 15px;
+}
+.ad-box img{
+  width: 100%;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: 10px;
 }

@@ -41,9 +41,3 @@ body{
   top: 100px;
 }
 
-.more-screen {
-  padding: 0px var(--horizontal-space);
-  position: relative;
-  top: 120px;
-}
-
