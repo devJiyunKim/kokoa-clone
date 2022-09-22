@@ -9,7 +9,6 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
-@import "./components/badge.css";
 
 /* Screens */
 @import "./screens/login.css";
@@ -30,8 +29,4 @@ body{
   box-shadow: 0px 0px 18px rgba(0,0,0,.2);
   position: relative;
   overflow-y: auto;
-}
-
-.main-screen{
-  padding: 0px var(--horizontal-space);
 }
