@@ -1,0 +1,141 @@
+#chat-screen{
+  background-color: #abc0d1;
+}
+
+#chat-screen .status-bar{
+  background-color: #abc0d1;
+}
+
+#chat-screen .alt-header{
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-chat{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp{
+  color: #fff;
+  background-color: rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 24px;
+  margin-bottom: 25px;
+}
+
+.message-row{
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.message-row img{
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.message__author{
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.message__info{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+
+.message__info:first-child{
+  margin-top: 0;
+}
+
+.message__bubble{
+  background-color: #fff;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 15px;
+  padding: 8px 16px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.message__bubble a{
+  color: rgb(103, 145, 250);
+  text-decoration: underline;
+}
+
+.message__time{
+  opacity: 0.8;
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: -0.35px;
+}
+
+.message-row--own{
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble{
+  background-color: #fee401;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info{
+  flex-direction: row-reverse;
+}
+
+.reply{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 16px;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child{
+  width: 5%;
+}
+
+.reply .reply__column:last-child{
+  width: 95%;
+}
+
+.reply input{
+  width: 97%;
+  padding: 10px;
+  border: var(--main-border);
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.reply i{
+  opacity: 0.5;
+}
+
+.reply__column:last-child i{
+  position: absolute;
+  top: 24px;
+}
+
+i.fa-face-smile{
+  right: 56px;
+}
+
+i.fa-hashtag{
+  right: 28px;
+}

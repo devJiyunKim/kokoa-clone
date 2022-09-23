@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 @import "./reset.css";
 @import "./variables.css";
@@ -19,11 +20,13 @@
 @import "./screens/find.css";
 @import "./screens/more.css";
 @import "./screens/settings.css";
+@import "./screens/chat.css";
 
 
 body{
   font-family: 'Rubik Puddles', cursive;
   font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 40px;
 }
 
