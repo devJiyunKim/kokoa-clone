@@ -13,6 +13,7 @@
 @import "./components/badge.css";
 @import "./components/icon-row.css";
 @import "./components/alt-screen-header.css";
+@import "./components/no-mobile.css";
 
 /* Screens */
 @import "./screens/login.css";
@@ -28,16 +29,6 @@ body{
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   padding-top: 40px;
-}
-
-#wrap{
-  width: 510px;
-  height: 840px;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0px 0px 18px rgba(0,0,0,.2);
-  overflow-y: auto;
-  position: relative;
 }
 
 .main-screen {

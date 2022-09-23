@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadeIn 0.3s linear;
 }
 
 .chat__timestamp{
@@ -138,4 +139,15 @@ i.fa-face-smile{
 
 i.fa-hashtag{
   right: 28px;
+}
+
+@keyframes fadeIn{
+  from{
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to{
+    transform: none;
+    opacity: 1;
+  }
 }
