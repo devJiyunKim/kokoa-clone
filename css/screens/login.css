@@ -33,7 +33,7 @@
 #login-form{
   display: flex;
   flex-direction: column;
-  padding: 0 80px;
+  padding: 0 20px;
 }
 
 #login-form input{
@@ -46,6 +46,7 @@
 
 #login-form input:not([type="submit"]){
   background-color: transparent;
+  border-radius: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: border-color 0.2s ease-in-out;
 }
